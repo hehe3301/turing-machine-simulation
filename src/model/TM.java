@@ -1,7 +1,7 @@
 package model;
 
 public class TM {
-	private char[] tape;
+	private Character[] tape;
 	private int index;
 	private TMState currentState;
 	

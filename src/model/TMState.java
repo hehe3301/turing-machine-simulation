@@ -1,7 +1,10 @@
 package model;
 
+import java.util.Hashtable;
+
 public class TMState {
 	private String name;
+	private Hashtable<Character,TMState> transitions; 
 	
 	
 	
